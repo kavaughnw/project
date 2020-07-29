@@ -1,11 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville&display=swap");
 /* CSS files add styling rules to your content */
 
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css);
+
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  font-family: "Anton", sans-serif;
+  /*   margin: 2em; */
+  background-color: powderblue;
 }
 
 h1 {
+  font-family: "Libre Baskerville", serif;
   font-style: italic;
   color: #373fff;
+}
+
+img {
+  display: block;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  color: red;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.header ul li {
+  display: inline;
+}
+
+.row {
+  display: flex;
+}
+.row img {
+  display: block;
 }
